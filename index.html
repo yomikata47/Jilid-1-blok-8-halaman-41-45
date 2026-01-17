@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>YOMIKATA — Jilid 1 (Blok 8)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{background:#eee;margin:0;padding:20px;font-family:serif}
+.page{max-width:420px;margin:auto;background:#fff;border:3px solid #000;padding:15px 10px;display:none}
+.page.active{display:block}
+.header{text-align:center;font-size:14px;margin-bottom:10px}
+.main{border-top:2px solid #000;border-bottom:2px solid #000;padding:24px 0 12px;text-align:center}
+.main .jp{font-size:72px;letter-spacing:14px}
+.main .latin{font-size:18px;margin-top:6px}
+.section-title{text-align:center;font-size:14px;margin:14px 0 6px}
+.practice{border-bottom:1px solid #000;padding:14px 10px;display:flex;justify-content:space-around;font-size:40px}
+.summary-box{border:2px solid #000;margin-top:14px;padding:14px 10px;text-align:center;letter-spacing:6px}
+.nav{position:sticky;bottom:0;background:#eee;padding-top:10px;display:flex;justify-content:space-between;margin-top:20px}
+button{font-size:14px;padding:6px 12px;border:2px solid #000;background:#fff}
+button:disabled{color:#999;border-color:#999}
+
+/* ===== FLOATING POPUP (DITAMBAHKAN) ===== */
+#hurufToggle{
+  position:fixed;
+  right:14px;
+  top:50%;
+  transform:translateY(-50%);
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  border:2px solid #000;
+  background:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:18px;
+  cursor:pointer;
+  z-index:999;
+}
+
+#hurufPopup{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.4);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
+}
+
+#hurufPopup.show{display:flex}
+
+.popup-box{
+  background:#fff;
+  width:90%;
+  max-width:360px;
+  padding:16px;
+  border-radius:14px;
+  animation:popupScale .25s ease;
+}
+
+@keyframes popupScale{
+  from{transform:scale(.7);opacity:0}
+  to{transform:scale(1);opacity:1}
+}
+
+.popup-title{text-align:center;font-size:14px;margin-bottom:10px}
+.popup-list{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;font-size:16px}
+</style>
+</head>
+
+<body>
+
+<!-- ================= HALAMAN 41 ================= -->
+<div class="page active">
+<!-- (ISI HALAMAN 41 TIDAK DIUBAH) -->
+<div class="header">YOMIKATA — Jilid 1 | Halaman 41</div>
+<div class="main">
+  <div class="jp">ら　り　ラ　リ</div>
+  <div class="latin">( ra ri )</div>
+</div>
+<div class="section-title">Hiragana</div>
+<div class="practice"><span>ら</span><span>ら</span><span>ら</span></div>
+<div class="practice"><span>り</span><span>り</span><span>り</span></div>
+
+<div class="section-title">Katakana</div>
+<div class="practice"><span>ラ</span><span>ラ</span><span>ラ</span></div>
+<div class="practice"><span>リ</span><span>リ</span><span>リ</span></div>
+<div class="section-title">Latihan</div>
+
+<!-- 10 baris WAJIB blok 7 (ma mi mu me mo) -->
+<div class="practice"><span>ら</span><span>ま</span><span>き</span></div>
+<div class="practice"><span>え</span><span>り</span><span>ミ</span></div>
+<div class="practice"><span>オ</span><span>ら</span><span>む</span></div>
+<div class="practice"><span>リ</span><span>あ</span><span>メ</span></div>
+<div class="practice"><span>ウ</span><span>も</span><span>り</span></div>
+
+<div class="practice"><span>マ</span><span>と</span><span>ら</span></div>
+<div class="practice"><span>リ</span><span>ミ</span><span>え</span></div>
+<div class="practice"><span>こ</span><span>ら</span><span>ム</span></div>
+<div class="practice"><span>め</span><span>オ</span><span>り</span></div>
+<div class="practice"><span>ラ</span><span>し</span><span>モ</span></div>
+
+<!-- 5 baris bebas (blok 1–6) -->
+<div class="practice"><span>ら</span><span>ホ</span><span>さ</span></div>
+<div class="practice"><span>ナ</span><span>え</span><span>り</span></div>
+<div class="practice"><span>ウ</span><span>こ</span><span>ラ</span></div>
+<div class="practice"><span>り</span><span>ト</span><span>は</span></div>
+<div class="practice"><span>ね</span><span>ら</span><span>オ</span></div>
+
+</div>
+
+<!-- ================= HALAMAN 42 ================= -->
+<div class="page">
+<div class="header">YOMIKATA — Jilid 1 | Halaman 42</div>
+
+<div class="main">
+  <div class="jp">る　れ　ル　レ</div>
+  <div class="latin">( ru re )</div>
+</div>
+
+<div class="section-title">Hiragana</div>
+<div class="practice"><span>る</span><span>る</span><span>る</span></div>
+<div class="practice"><span>れ</span><span>れ</span><span>れ</span></div>
+
+<div class="section-title">Katakana</div>
+<div class="practice"><span>ル</span><span>ル</span><span>ル</span></div>
+<div class="practice"><span>レ</span><span>レ</span><span>レ</span></div>
+
+<div class="section-title">Latihan</div>
+
+<div class="practice"><span>る</span><span>ま</span><span>き</span></div>
+<div class="practice"><span>ミ</span><span>え</span><span>れ</span></div>
+<div class="practice"><span>オ</span><span>る</span><span>む</span></div>
+<div class="practice"><span>も</span><span>レ</span><span>あ</span></div>
+
+<!-- kemunculan ら・り・ラ・リ -->
+<div class="practice"><span>ら</span><span>ウ</span><span>る</span></div>
+<div class="practice"><span>と</span><span>れ</span><span>リ</span></div>
+
+<div class="practice"><span>ム</span><span>る</span><span>こ</span></div>
+<div class="practice"><span>え</span><span>ミ</span><span>れ</span></div>
+
+<div class="practice"><span>ル</span><span>し</span><span>ラ</span></div>
+<div class="practice"><span>オ</span><span>り</span><span>れ</span></div>
+
+<div class="practice"><span>る</span><span>ナ</span><span>さ</span></div>
+<div class="practice"><span>は</span><span>ト</span><span>れ</span></div>
+<div class="practice"><span>ね</span><span>ル</span><span>オ</span></div>
+<div class="practice"><span>れ</span><span>ホ</span><span>こ</span></div>
+<div class="practice"><span>ア</span><span>と</span><span>る</span></div>
+
+</div>
+
+<!-- ================= HALAMAN 43 ================= -->
+<div class="page">
+<div class="header">YOMIKATA — Jilid 1 | Halaman 43</div>
+
+<div class="main">
+  <div class="jp">ろ　ロ</div>
+  <div class="latin">( ro )</div>
+</div>
+
+<div class="section-title">Hiragana</div>
+<div class="practice"><span>ろ</span><span>ろ</span><span>ろ</span></div>
+
+<div class="section-title">Katakana</div>
+<div class="practice"><span>ロ</span><span>ロ</span><span>ロ</span></div>
+
+<div class="section-title">Latihan</div>
+
+<div class="practice"><span>ろ</span><span>か</span><span>ら</span></div>
+<div class="practice"><span>そ</span><span>ロ</span><span>リ</span></div>
+<div class="practice"><span>け</span><span>る</span><span>ろ</span></div>
+<div class="practice"><span>ロ</span><span>た</span><span>レ</span></div>
+
+<div class="practice"><span>ぬ</span><span>り</span><span>ろ</span></div>
+<div class="practice"><span>へ</span><span>ロ</span><span>ル</span></div>
+<div class="practice"><span>ろ</span><span>れ</span><span>に</span></div>
+<div class="practice"><span>ラ</span><span>ロ</span><span>ほ</span></div>
+
+<div class="practice"><span>さ</span><span>ろ</span><span>く</span></div>
+<div class="practice"><span>ロ</span><span>ち</span><span>こ</span></div>
+<div class="practice"><span>す</span><span>て</span><span>ろ</span></div>
+<div class="practice"><span>と</span><span>ロ</span><span>つ</span></div>
+<div class="practice"><span>ろ</span><span>な</span><span>の</span></div>
+<div class="practice"><span>ふ</span><span>ロ</span><span>ひ</span></div>
+<div class="practice"><span>は</span><span>へ</span><span>ろ</span></div>
+
+</div>
+
+<!-- ================= HALAMAN 44 ================= -->
+<div class="page">
+<div class="header">YOMIKATA — Jilid 1 | Halaman 44 (Pengayaan)</div>
+
+
+<div class="practice"><span>き</span><span>ら</span><span>も</span><span>ト</span></div>
+<div class="practice"><span>ナ</span><span>す</span><span>ひ</span><span>リ</span></div>
+<div class="practice"><span>え</span><span>ル</span><span>ま</span><span>こ</span></div>
+<div class="practice"><span>た</span><span>む</span><span>れ</span><span>オ</span></div>
+<div class="practice"><span>ロ</span><span>の</span><span>さ</span><span>ミ</span></div>
+
+<div class="practice"><span>は</span><span>よ</span><span>モ</span><span>り</span></div>
+<div class="practice"><span>け</span><span>ラ</span><span>ね</span><span>う</span></div>
+<div class="practice"><span>そ</span><span>め</span><span>ル</span><span>あ</span></div>
+<div class="practice"><span>と</span><span>れ</span><span>ひ</span><span>マ</span></div>
+<div class="practice"><span>ろ</span><span>こ</span><span>ナ</span><span>す</span></div>
+
+<div class="practice"><span>ミ</span><span>た</span><span>ふ</span><span>ラ</span></div>
+<div class="practice"><span>ね</span><span>む</span><span>オ</span><span>き</span></div>
+<div class="practice"><span>さ</span><span>リ</span><span>も</span><span>え</span></div>
+<div class="practice"><span>レ</span><span>は</span><span>こ</span><span>う</span></div>
+<div class="practice"><span>と</span><span>み</span><span>ひ</span><span>ロ</span></div>
+
+<div class="practice"><span>め</span><span>ナ</span><span>す</span><span>か</span></div>
+<div class="practice"><span>り</span><span>オ</span><span>ね</span><span>た</span></div>
+<div class="practice"><span>ふ</span><span>マ</span><span>こ</span><span>え</span></div>
+<div class="practice"><span>る</span><span>さ</span><span>ミ</span><span>と</span></div>
+<div class="practice"><span>は</span><span>む</span><span>ナ</span><span>き</span></div>
+
+<div class="practice"><span>そ</span><span>ロ</span><span>え</span><span>も</span></div>
+<div class="practice"><span>こ</span><span>ひ</span><span>マ</span><span>ね</span></div>
+<div class="practice"><span>た</span><span>す</span><span>ミ</span><span>よ</span></div>
+<div class="practice"><span>オ</span><span>は</span><span>む</span><span>き</span></div>
+<div class="practice"><span>え</span><span>さ</span><span>ナ</span><span>と</span></div>
+
+<div class="practice"><span>ふ</span><span>こ</span><span>ミ</span><span>ね</span></div>
+<div class="practice"><span>も</span><span>ひ</span><span>た</span><span>オ</span></div>
+<div class="practice"><span>き</span><span>ナ</span><span>す</span><span>え</span></div>
+<div class="practice"><span>む</span><span>こ</span><span>は</span><span>と</span></div>
+<div class="practice"><span>ね</span><span>ミ</span><span>さ</span><span>も</span></div>
+
+</div>
+
+<!-- ================= HALAMAN 45 ================= -->
+<div class="page">
+<div class="header">YOMIKATA — Jilid 1 | Halaman 45 (Pengayaan)</div>
+
+<div class="practice"><span>つ</span><span>ひ</span><span>け</span><span>ナ</span></div>
+<div class="practice"><span>チ</span><span>へ</span><span>こ</span><span>ミ</span></div>
+<div class="practice"><span>て</span><span>ぬ</span><span>さ</span><span>オ</span></div>
+<div class="practice"><span>ト</span><span>の</span><span>き</span><span>え</span></div>
+<div class="practice"><span>に</span><span>ふ</span><span>け</span><span>マ</span></div>
+
+<div class="practice"><span>ヒ</span><span>つ</span><span>ね</span><span>あ</span></div>
+<div class="practice"><span>へ</span><span>チ</span><span>も</span><span>ウ</span></div>
+<div class="practice"><span>ク</span><span>て</span><span>は</span><span>オ</span></div>
+<div class="practice"><span>け</span><span>ト</span><span>ぬ</span><span>こ</span></div>
+<div class="practice"><span>セ</span><span>に</span><span>え</span><span>ま</span></div>
+
+<div class="practice"><span>そ</span><span>ひ</span><span>ミ</span><span>つ</span></div>
+<div class="practice"><span>ツ</span><span>へ</span><span>な</span><span>オ</span></div>
+<div class="practice"><span>ち</span><span>ク</span><span>き</span><span>も</span></div>
+<div class="practice"><span>テ</span><span>の</span><span>さ</span><span>ウ</span></div>
+<div class="practice"><span>と</span><span>ひ</span><span>け</span><span>ミ</span></div>
+
+<div class="practice"><span>ぬ</span><span>セ</span><span>こ</span><span>あ</span></div>
+<div class="practice"><span>ノ</span><span>て</span><span>は</span><span>オ</span></div>
+<div class="practice"><span>へ</span><span>つ</span><span>マ</span><span>さ</span></div>
+<div class="practice"><span>チ</span><span>の</span><span>え</span><span>も</span></div>
+<div class="practice"><span>け</span><span>ヒ</span><span>こ</span><span>ウ</span></div>
+
+<div class="practice"><span>せ</span><span>ぬ</span><span>ナ</span><span>き</span></div>
+<div class="practice"><span>ソ</span><span>と</span><span>ま</span><span>え</span></div>
+<div class="practice"><span>つ</span><span>ひ</span><span>オ</span><span>も</span></div>
+<div class="practice"><span>へ</span><span>ク</span><span>さ</span><span>な</span></div>
+<div class="practice"><span>て</span><span>の</span><span>ミ</span><span>こ</span></div>
+
+<div class="practice"><span>ト</span><span>ぬ</span><span>え</span><span>は</span></div>
+<div class="practice"><span>ひ</span><span>セ</span><span>ま</span><span>オ</span></div>
+<div class="practice"><span>け</span><span>つ</span><span>ナ</span><span>も</span></div>
+<div class="practice"><span>チ</span><span>へ</span><span>き</span><span>ウ</span></div>
+<div class="practice"><span>の</span><span>そ</span><span>ミ</span><span>え</span></div>
+
+</div>
+
+<!-- ===== FLOATING BUTTON (DITARUH) ===== -->
+<div id="hurufToggle" onclick="toggleHuruf()">あ</div>
+
+<!-- ===== POPUP (DITARUH) ===== -->
+<div id="hurufPopup">
+  <div class="popup-box">
+    <div class="popup-title">Huruf yang sudah dipelajari</div>
+    <div class="popup-list" id="popupHira"></div>
+    <hr>
+    <div class="popup-list" id="popupKata"></div>
+    <div style="text-align:center;margin-top:12px">
+      <button onclick="toggleHuruf()">Tutup</button>
+    </div>
+  </div>
+</div>
+
+<div class="nav">
+<button id="prevBtn" onclick="prevPage()">◀ Prev</button>
+<button id="nextBtn" onclick="nextPage()">Next ▶</button>
+</div>
+
+<script>
+let current=0;
+const pages=document.querySelectorAll('.page');
+const prevBtn=document.getElementById('prevBtn');
+const nextBtn=document.getElementById('nextBtn');
+
+function showPage(i){
+  pages[current].classList.remove('active');
+  current=i;
+  pages[current].classList.add('active');
+  prevBtn.disabled=current===0;
+  nextBtn.disabled=current===pages.length-1;
+  window.scrollTo(0,0);
+}
+function nextPage(){if(current<pages.length-1)showPage(current+1)}
+function prevPage(){if(current>0)showPage(current-1)}
+
+/* ===== GUARD (INI KUNCI ERROR KAMU) ===== */
+if(pages.length>0){
+  showPage(0);
+}
+
+/* ===== POPUP DATA & LOGIC (DITAMBAHKAN) ===== */
+const hurufPerHalaman=[
+ {hira:"あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も ら り",
+  kata:"ア イ ウ エ オ カ キ ク ケ コ サ シ ス セ ソ タ チ ツ テ ト ナ ニ ヌ ネ ノ ハ ヒ フ ヘ ホ マ ミ ム メ モ ラ リ"},
+ {hira:"あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も ら り る れ",
+  kata:"ア イ ウ エ オ カ キ ク ケ コ サ シ ス セ ソ タ チ ツ テ ト ナ ニ ヌ ネ ノ ハ ヒ フ ヘ ホ マ ミ ム メ モ ラ リ ル レ"},
+ {hira:"あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も ら り る れ ろ",
+  kata:"ア イ ウ エ オ カ キ ク ケ コ サ シ ス セ ソ タ チ ツ テ ト ナ ニ ヌ ネ ノ ハ ヒ フ ヘ ホ マ ミ ム メ モ ラ リ ル レ ロ"}
+];
+
+function toggleHuruf(){
+ const p=document.getElementById('hurufPopup');
+ p.classList.toggle('show');
+ updateHuruf();
+}
+
+function updateHuruf(){
+ const idx=Math.min(current,hurufPerHalaman.length-1);
+ popupHira.innerHTML=hurufPerHalaman[idx].hira.split(' ').map(h=>`<span>${h}</span>`).join('');
+ popupKata.innerHTML=hurufPerHalaman[idx].kata.split(' ').map(k=>`<span>${k}</span>`).join('');
+}
+</script>
+
+</body>
+</html>
